@@ -1,0 +1,17 @@
+<?php 
+
+// param to connect to a database
+$dbHost = "localhost";
+$dbUser = "root";
+$dbPass = "";
+$dbName = "phptutorial";
+
+// Connection to database
+$conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
+
+if (!$conn) {
+    die("Database connection failed!");
+} 
+
+// ekha (!) sign debar karone (else) ta bad deya holo
+?>
